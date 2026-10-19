@@ -215,7 +215,7 @@ img { display: block; }
 
 .content__canvas {
   position: relative;
-  height: calc(5720 * var(--u));
+  height: calc(5520.14 * var(--u));
 }
 
 /* Frames + photos are placed exactly where they sit in Paper.
@@ -260,7 +260,7 @@ img { display: block; }
 /* Columns 1–3 */
 .photo--mountain-ridge {
   left: 0;
-  top: calc(960 * var(--u));
+  top: calc(1120 * var(--u));
   width: calc(460 * var(--u));
   height: calc(575.77 * var(--u));
 }
@@ -268,7 +268,7 @@ img { display: block; }
 /* Columns 3–4, overlapping the ridge photo */
 .frame--est {
   left: calc(313.33 * var(--u));
-  top: calc(1040 * var(--u));
+  top: calc(1200 * var(--u));
   width: calc(303.33 * var(--u));
   height: calc(50 * var(--u));
   padding: 0;
@@ -280,7 +280,7 @@ img { display: block; }
 /* Columns 5–9 */
 .frame--about {
   left: calc(626.67 * var(--u));
-  top: calc(1261 * var(--u));
+  top: calc(1501 * var(--u));
   width: calc(773.33 * var(--u));
   display: flex;
   flex-direction: column;
@@ -296,7 +296,7 @@ img { display: block; }
 /* Columns 2–5 */
 .frame--help {
   left: calc(156.67 * var(--u));
-  top: calc(1958 * var(--u));
+  top: calc(2518 * var(--u));
   width: calc(616.67 * var(--u));
   display: flex;
   flex-direction: column;
@@ -312,7 +312,7 @@ img { display: block; }
 /* Columns 7–8 */
 .photo--road-cars {
   left: calc(940 * var(--u));
-  top: calc(1782 * var(--u));
+  top: calc(2262 * var(--u));
   width: calc(303.33 * var(--u));
   height: calc(367 * var(--u));
 }
@@ -320,7 +320,7 @@ img { display: block; }
 /* Columns 5–9 */
 .photo--mountain-range {
   left: calc(626.67 * var(--u));
-  top: calc(2696 * var(--u));
+  top: calc(3256 * var(--u));
   width: calc(773.33 * var(--u));
   height: calc(516.1 * var(--u));
 }
@@ -328,7 +328,7 @@ img { display: block; }
 /* Columns 2–8, overlapping the mountain range photo */
 .frame--tax {
   left: calc(156.67 * var(--u));
-  top: calc(2614 * var(--u));
+  top: calc(3174 * var(--u));
   width: calc(1086.67 * var(--u));
   display: flex;
   justify-content: center;
@@ -337,7 +337,7 @@ img { display: block; }
 /* Columns 2–4 */
 .photo--boats {
   left: calc(156.67 * var(--u));
-  top: calc(3412 * var(--u));
+  top: calc(4212 * var(--u));
   width: calc(460 * var(--u));
   height: calc(648.14 * var(--u));
 }
@@ -345,7 +345,7 @@ img { display: block; }
 /* Columns 4–7, overlapping the boats photo */
 .frame--vehicles {
   left: calc(470 * var(--u));
-  top: calc(3312 * var(--u));
+  top: calc(4120 * var(--u));
   width: calc(616.67 * var(--u));
 }
 
