@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bennett Law Office, P.C. — Missoula, Montana</title>
+  <meta name="description" content="Bennett Law Office is a full-service transactional law firm in the Missoula Valley of Montana: tax-free vehicle registration, estate planning, commercial transactions, entity planning, liquor licensing and real estate.">
+  <link rel="preload" href="assets/fonts/successor-light.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/fonts/malamocco-regular.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- z1 — Hero: fixed for the whole page. Off-white fades to green while scrolling the first screen. -->
+  <header class="hero">
+    <h1 class="hero__headline hero__headline--top">Bennett Law Office is a<br>full-service transactional</h1>
+    <p class="hero__headline hero__headline--bottom">Law office located in the<br>Missoula Valley of Montana</p>
+  </header>
+
+  <!-- z2 — Morphing wordmark (State A: column 1 in the hero → State B: 5 columns, centered) -->
+  <img class="wordmark" src="assets/svg/wordmark.svg" alt="Bennett">
+
+  <!-- z4 — Morphing nav (State A: right side of the hero → State B: top center) -->
+  <nav class="nav" aria-label="Main">
+    <svg class="nav__frames" viewBox="0 0 3000 111" aria-hidden="true" preserveAspectRatio="none">
+      <g data-i="1">
+        <path class="nav__pill" d="M748.618,35.381v40.237c0,16.482-13.354,29.847-29.847,29.847H35.374c-16.482,0-29.847-13.365-29.847-29.847v-40.237c0-16.493,13.365-29.847,29.847-29.847h683.398c16.493,0,29.847,13.353,29.847,29.847Z"/>
+        <path class="nav__edge" d="M0,.008v110.985h754.145V.008H0ZM748.618,75.619c0,16.482-13.354,29.847-29.847,29.847H35.374c-16.482,0-29.847-13.365-29.847-29.847v-40.237c0-16.493,13.365-29.847,29.847-29.847h683.398c16.493,0,29.847,13.353,29.847,29.847v40.237Z"/>
+      </g>
+      <g data-i="2">
+        <path class="nav__pill" d="M1497.236,35.381v40.237c0,16.482-13.354,29.847-29.847,29.847h-683.398c-16.482,0-29.847-13.365-29.847-29.847v-40.237c0-16.493,13.365-29.847,29.847-29.847h683.398c16.493,0,29.847,13.353,29.847,29.847Z"/>
+        <path class="nav__edge" d="M748.618.008v110.985h754.145V.008h-754.145ZM1497.236,75.619c0,16.482-13.354,29.847-29.847,29.847h-683.398c-16.482,0-29.847-13.365-29.847-29.847v-40.237c0-16.493,13.365-29.847,29.847-29.847h683.398c16.493,0,29.847,13.353,29.847,29.847v40.237Z"/>
+      </g>
+      <g data-i="3">
+        <path class="nav__pill" d="M2245.855,35.381v40.237c0,16.482-13.354,29.847-29.847,29.847h-683.398c-16.482,0-29.847-13.365-29.847-29.847v-40.237c0-16.493,13.365-29.847,29.847-29.847h683.398c16.493,0,29.847,13.353,29.847,29.847Z"/>
+        <path class="nav__edge" d="M1497.236.008v110.985h754.145V.008h-754.145ZM2245.855,75.619c0,16.482-13.354,29.847-29.847,29.847h-683.398c-16.482,0-29.847-13.365-29.847-29.847v-40.237c0-16.493,13.365-29.847,29.847-29.847h683.398c16.493,0,29.847,13.353,29.847,29.847v40.237Z"/>
+      </g>
+      <g data-i="4">
+        <path class="nav__pill" d="M2994.473,35.381v40.237c0,16.482-13.354,29.847-29.847,29.847h-683.398c-16.482,0-29.847-13.365-29.847-29.847v-40.237c0-16.493,13.365-29.847,29.847-29.847h683.398c16.493,0,29.847,13.353,29.847,29.847Z"/>
+        <path class="nav__edge" d="M2245.855.008v110.985h754.145V.008h-754.145ZM2994.473,75.619c0,16.482-13.354,29.847-29.847,29.847h-683.398c-16.482,0-29.847-13.365-29.847-29.847v-40.237c0-16.493,13.365-29.847,29.847-29.847h683.398c16.493,0,29.847,13.353,29.847,29.847v40.237Z"/>
+      </g>
+    </svg>
+    <!-- Labels intentionally have no links yet -->
+    <ul class="nav__items">
+      <li class="nav__item" data-i="1">About</li>
+      <li class="nav__item" data-i="2">Practice Areas</li>
+      <li class="nav__item" data-i="3">Our Team</li>
+      <li class="nav__item" data-i="4">Contact</li>
+    </ul>
+  </nav>
+
+  <main class="scroll-layer">
+
+    <!-- 01 Hero scroll distance — empty; drives the fade + morph on the fixed hero -->
+    <div class="hero-scroll" aria-hidden="true"></div>
+
+    <!-- 02 Reveal Spacer — transparent, reveals the green sticky layer + wordmark -->
+    <section class="reveal" aria-label="Introduction">
+      <p class="reveal__text">Serving the Missoula Valley since 1997</p>
+    </section>
+
+    <!-- 03 Homepage content — transparent, z3, scrolls over the green + wordmark -->
+    <section class="content">
+      <div class="content__canvas">
+
+        <div class="frame frame--intro">
+          <h2 class="t-display-44 t-center">Vehicle registration<br>&amp;<br>Personal legal counsel.</h2>
+        </div>
+
+        <img class="photo photo--sports-cars" src="assets/img/sports-cars.jpg" alt="Three Porsche sports cars parked beneath alpine peaks" loading="lazy">
+
+        <img class="photo photo--mountain-ridge" src="assets/img/mountain-ridge.jpg" alt="Grassy mountain ridge below a rocky summit" loading="lazy">
+
+        <div class="frame frame--grey frame--est">
+          <p class="t-body-16 t-center">Est 1997 · Missoula, Montana</p>
+        </div>
+
+        <div class="frame frame--about">
+          <p class="t-body-24">BENNETT LAW OFFICE is a full-service transactional law firm located in the Missoula Valley, dedicated to providing a wide range of legal services. These services include the areas of tax-free vehicle registration, estate planning, commercial transactions, entity planning, liquor licensing, and real estate. The members and staff at Bennett Law Office, P.C. are committed to providing the highest degree of professional service and take pride in the consistent quality of their work.</p>
+          <img class="frame__logo" src="assets/svg/logo.svg" alt="Bennett Law Office monogram">
+        </div>
+
+        <div class="frame frame--grey frame--help">
+          <h2 class="t-display-32">What we help with</h2>
+          <ul class="help-list">
+            <li class="t-body-16">Montana LLC Formation &amp; Related Documentation</li>
+            <li class="t-body-16">Vehicle Title Work &amp; Registration</li>
+            <li class="t-body-16">Legal Guidance Concerning Ownership, Use, &amp; Applicable State Requirements</li>
+            <li class="t-body-16">Registration Renewals &amp; Ongoing LLC Support</li>
+            <li class="t-body-16">Documentation Associated With Financed Vehicles</li>
+            <li class="t-body-16">Changes in Registration &amp; Winding Up An Entity When It Is No Longer Needed</li>
+            <li class="t-body-16">Connections To Specialists For Needs Such As Transport &amp; Insurance</li>
+          </ul>
+        </div>
+
+        <img class="photo photo--road-cars" src="assets/img/mountain-road-cars.jpg" alt="Sports cars driving a winding mountain road" loading="lazy">
+
+        <img class="photo photo--mountain-range" src="assets/img/mountain-range.jpg" alt="Green mountain range under a cloudy sky" loading="lazy">
+
+        <div class="frame frame--tax">
+          <p class="t-display-24 t-center">Montana is one of the few states with no sales tax on vehicles.<br><br>We help clients form and maintain Montana LLCs to register cars, RVs and aircraft legally, cleanly, and with ongoing support.</p>
+        </div>
+
+        <img class="photo photo--boats" src="assets/img/boats-lake.jpg" alt="Two boats moored on a calm mountain lake" loading="lazy">
+
+        <div class="frame frame--grey frame--vehicles">
+          <p class="t-display-44">Aircraft<br>Boats and ATVs<br>Motorcycles<br>Motorhomes / RVs<br>Cars</p>
+        </div>
+
+        <address class="contact t-body-24 t-center">124 W Pine Street Missoula, MT 59802<br>T: +1.406.543.5803, E: info@bennettlawofficepc.com</address>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
