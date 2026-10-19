@@ -215,7 +215,7 @@ img { display: block; }
 
 .content__canvas {
   position: relative;
-  height: calc(4720 * var(--u));
+  height: calc(5720 * var(--u));
 }
 
 /* Frames + photos are placed exactly where they sit in Paper.
